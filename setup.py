@@ -4,7 +4,7 @@ with open('README.md', 'r') as f:
     long_description = f.read()
 
 VERSION = '0.0.1'
-DESCRIPTION = "UCSD ECE Department's course catalog"
+DESCRIPTION = "UCSD ECE Department's Course Catalog"
 LONG_DESCRIPTION = "A neat package to scrape, organize, and filter for UCSD ECE Department's course catalog."
 
 # Setting up

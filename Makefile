@@ -6,6 +6,7 @@ install:
 
 build:
 	python3 setup.py build bdist_wheel sdist
+	twine check dist/*
 
 clean:
 	rm -rf build

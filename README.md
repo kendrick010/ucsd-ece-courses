@@ -4,6 +4,12 @@ A neat package to scrape, organize, and filter for UCSD ECE Department's course 
 
 Developed by Kendrick Nguyen, who is currently experimenting with packaging.
 
+## Installation
+
+```
+pip3 install ucsd_ece_courses
+```
+
 ## Examples of How To Use
 
 Get course descriptions
