@@ -108,6 +108,8 @@ class ECECatalog:
         :return: closest matched course number from alias
         '''     
 
+        course = re.findall('\d+', course)[0]
+
         try:
             alias = get_close_matches(course, self.__course_catalog.keys())[0]
             alias = alias if alias in course else False
